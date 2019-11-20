@@ -5,6 +5,7 @@ https://stackoverflow.com/questions/12523586/python-format-size-application-conv
 
 from datetime import datetime
 
+
 def format_bytes(size):
     # 2**10 = 1024
     power = 2**10
@@ -16,6 +17,7 @@ def format_bytes(size):
     return size, power_labels[n]+'bytes'
 
 
+# no longer required?
 def format_speed(download, upload):
     download_speeds = []
     download_labels = []
